@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Hutama - Website Resmi Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SMK Hutama</div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#jurusan">Jurusan</a></li>
+            <li><a href="#berita">Berita</a></li>
+            <li><a href="#ppdb">PPDB Online</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Membangun Generasi Unggul, Kreatif & Berkarakter</h1>
+            <p>Pusat pendidikan kejuruan terdepan dengan fasilitas modern dan kurikulum selaras dunia industri.</p>
+            <a href="#ppdb" class="btn-hero">Daftar Sekarang (PPDB)</a>
+        </div>
+    </header>
+
+    <!-- Profil & Visi Misi -->
+    <section id="profil" class="section">
+        <h2>Profil & Visi Misi</h2>
+        <div class="profile-grid">
+            <div class="profile-card">
+                <h3>Sambutan Kepala Sekolah</h3>
+                <p>“Kami mendidik siswa-siswi tidak hanya menguasai teori, tetapi juga memiliki keterampilan praktis yang siap bersaing di dunia kerja maupun berwirausaha mandiri.”</p>
+                <span class="author">- Dr. H,Sufida Ambarawati M.Pd.</span>
+            </div>
+            <div class="profile-card">
+                <h3>Visi & Misi Utama</h3>
+                <p><strong>Visi:</strong> Menjadi sekolah kejuruan pilihan utama yang menghasilkan lulusan berakhlak mulia, kompeten, dan adaptif terhadap teknologi.</p>
+                <p><strong>Misi:</strong> Menyelenggarakan pembelajaran berbasis praktik industri, meningkatkan kompetensi guru, serta memperluas jaringan kerja sama dunia usaha.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Keahlian -->
+    <section id="jurusan" class="section bg-light">
+        <h2>Program Keahlian</h2>
+        <option value="tkj">Teknik Komputer & Jaringan</option>
+        <option value="ak">Akuntansi</option>
+         <option value="bc">Broadcast</option>
+          <option value="mp">Managemen Perkantoran</option>
+          <option value="tkr">Teknik Kendaraan Ringan</option>
+         
+            
+    </section>
+
+    <!-- Berita & Pengumuman -->
+    <section id="berita" class="section">
+        <h2>Berita & Pengumuman Terbaru</h2>
+        <div class="card-container">
+            <div class="card">
+                <span class="date">10 Oktober 2026</span>
+                <h3>Jadwal Ujian Praktik Kejuruan</h3>
+                <p>Pengumuman penting mengenai persiapan dan jadwal pelaksanaan uji kompetensi keahlian semester ganjil.</p>
+            </div>
+            <div class="card">
+                <span class="date">28 September 2026</span>
+                <h3>Kunjungan Industri ke Perusahaan IT</h3>
+                <p>Siswa kelas XI mengikuti program wawasan kerja langsung ke pusat data dan perusahaan teknologi mitra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PPDB Online (Form Kontak) -->
+    <section id="ppdb" class="section bg-light">
+        <h2>Formulir Pendaftaran Siswa Baru (PPDB)</h2>
+        <div class="form-wrapper">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="namalengkap">Nama Lengkap Calon Siswa</label>
+                    <input type="text" id="namalengkap" name="namalengkap" placeholder="Masukkan nama lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="asal-sekolah">Asal Sekolah (SMP/MTs)</label>
+                    <input type="text" id="asal-sekolah" name="asal-sekolah" placeholder="Nama sekolah asal" required>
+                </div>
+                <div class="form-group">
+                    <label for="pilihan-jurusan">Pilihan Program Keahlian</label>
+                    <select id="pilihan-jurusan" name="pilihan-jurusan" required>
+                        <option value="">-- Pilih Jurusan --</option>
+                        <option value="tkj">Teknik Komputer & Jaringan</option>
+                        <option value="tkr">Teknik Kendaraan Ringan</option>
+                        <option value="bc">Broadcast</option>
+                        <option value="mp">Managemen Perkantoran</option>
+                        <option value="ak">Akuntansi</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">Nomor WhatsApp Aktif</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="08xxxxxxxxxx" required>
+                </div>
+                <button type="submit" class="btn-submit">Kirim Pendaftaran</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SMK Hutama. Seluruh Hak Cipta Dilindungi.</p>
+        <p>Jl.Jl. Raya Hankam No 37, Kelurahan Pondok Melati,Kota Bekasi | Email: info@smkhutama.sch.id</p>
+    </footer>
+</body>
+</html
